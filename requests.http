@@ -1,3 +1,16 @@
 ## Hello
 
 GET http://localhost:3000
+
+### Cadastrar aluno
+
+POST http://localhost:3000/alunos
+Content-Type: application/json
+
+{
+  "nome": "juca",
+  "endereco": "Ruazinha A",
+  "telefone": "12357",
+  "email": "juca@westie.com",
+  "anoNascimento": 1989
+}
