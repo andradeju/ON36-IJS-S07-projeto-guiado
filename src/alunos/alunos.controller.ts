@@ -9,7 +9,7 @@ export class AlunosController {
 
   @Post()
   cadastrar(@Body() createAlunoDto: CreateAlunoDto) {
-    return this.alunosService.create(createAlunoDto);
+    return this.alunosService.cadastrar(createAlunoDto);
   }
 
 }

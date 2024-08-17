@@ -1,4 +1,5 @@
-export class Aluno {
+export class Alunos {
+  id: string;
   nome: string;
   endereco: string;
   telefone: string;
@@ -10,5 +11,6 @@ export class Aluno {
   this.endereco = endereco;
   this.telefone = telefone;
   this.email = email;
+  this.cursos = [];
   }
 }
